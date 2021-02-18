@@ -1,0 +1,247 @@
+.about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-img{
+    position: relative;
+    height: 500px;
+}
+.about-header{
+    position:absolute;
+    top: 50%;
+    left:40%;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.bio-content{
+    background-color: black;
+    width: 70%;
+    padding: 30px;
+    color: white;
+    font-family: Knewave;
+}
+
+.get-game{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    width: 70%;
+    position: relative;
+    z-index: -2;
+}
+
+.game-card{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    z-index: 1;
+}
+.game-card-button{
+    background-color: red;
+    padding: 3px 15px;
+    font-family: Knewave;
+    color: white;
+    position: absolute;
+    outline: none;
+    border: none;
+    top: 10%;
+    left: 10%;
+    z-index: 4;
+}
+.game-card-card-button{
+    background-color:blue;
+    padding: 3px 15px;
+    font-family: Knewave;
+    color: white;
+    position: absolute;
+    outline: none;
+    border: none;
+    top: 10%;
+    left: 10%;
+    z-index: 4;
+}
+.game-card-img{
+    width: 300px;
+    position: relative;
+    z-index: 2;
+}
+
+.game-card-content{
+    color: white;
+    text-align: start;
+    margin-left: 10px;
+    font-family: Knewave;
+    position: absolute;
+    z-index: 5;
+    bottom: 20%;
+}
+
+.game-card-comment{
+    color: white;
+    text-align: start;
+    margin-left: 10px;
+    font-family: Knewave;
+    position: absolute;
+    z-index: 5;
+    bottom: 0%;
+}
+
+.recent-game{
+    width: 70%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.recent-game-header{
+    font-family: Knewave;
+}
+
+.recent-game-img-1{
+    position: absolute;
+    left: 80%;
+}
+.recent-game-img-2{
+    position: absolute;
+    right: 50%;
+}
+.game-card-card{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    z-index: 1;
+}
+
+.reviews-section{
+    margin-bottom: 100px;
+    width: 70%;
+    text-align: center;
+}
+
+.review-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    z-index: -2;
+}
+
+.review-body-card-img{
+    width: 300px;
+}
+
+.review-body-card{
+    position: relative;
+    color: black;
+    width: min-content;
+    text-align: start;
+}
+
+.review-body-card-rating{
+    position: absolute;
+    left:10%;
+    background-color: black;
+    color: white;
+    font-family: Knewave;
+    padding: 10px;
+    border: 2px solid lightblue;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.review-body-card-title{
+    text-align: center;
+}
+
+.review-body-card-comment{
+    font-family: Knewave;
+}
+
+.posts-section{
+    width: 100%;
+    background-color: rgb(46, 44, 44);
+}
+
+.posts-body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.posts-img{
+    width: 300px;
+}
+
+.latest-post-post-img{
+    width: 70px;
+}
+
+.top-comments-comments-img{
+    width:50px;
+    border-radius:10px;
+}
+
+.gammer-worrior{
+    text-align: start;
+    font-family: Knewave;
+}
+.gammer-worrior-header{
+    color: white;
+    font-family: Knewave;
+}
+
+.gammer-worrior-text{
+    color: white;
+}
+
+span{
+    color: orange;
+}
+
+.latest-post{
+    width: 300px;
+    background-color: rgb(51, 50, 50);
+    text-align: start;
+    padding: 10px;
+}
+
+.latest-post-header{
+    color: white;
+}
+
+.latest-post-post-content{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin: 10px;
+}
+
+.latest-post-post-text{
+    margin-left: 5px;
+}
+
+.top-comments{
+    width:300px;
+    background-color: rgb(51, 50, 50);
+    padding: 10px;
+}
+
+.top-comments-comments-content{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.top-comments-comments-text{
+    margin-left: 15px;
+    color: white;
+}

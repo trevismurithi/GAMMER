@@ -1,0 +1,248 @@
+*{margin: 0; padding: 0;}
+nav{
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+html,body{
+    background-image: url('/img/street.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.home-intro{
+    left: 50%;
+    top: 50%;
+    font-family: Knewave;
+    position: absolute;
+    text-align: start;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.home-text{
+    display: none;
+}
+.content-item{
+    display: block;
+    animation: textAnim 3s ease;
+}
+
+.brand{
+    display: flex;
+    align-items:center; 
+    margin-left: 30px;  
+}
+.line{
+    width:2px;
+    background-color: black;
+    height: 30px;
+    margin: 10px;
+}
+.logIn{
+    display: flex;
+    align-items: center;
+    margin-right: 30px; 
+}
+.container{
+    width: 50%;
+    background-color: white;
+    display:inline-flex;
+    border-radius:30px;
+    box-shadow: 0 10px 16px #000000, 10px 10px 16px #000000;
+}
+.icons{
+    margin-left: 15px;
+}
+
+.section1{
+    width:30%;
+    text-align: center;
+}
+
+.sect1-row{
+    padding: 10px;
+}
+
+
+.minirow {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2{
+    width:70%;
+    background-image:linear-gradient(90deg,crimson,blue);
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.sect2-row{
+    padding-top: 10px;
+    padding-left: 60px;
+}
+.sect-2-row{
+    width: 70%;
+    margin: 10px 60px 10px;
+    padding: 10px;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+}
+.mini-2{
+    text-align: center;
+    width: 60%;
+}
+
+
+.bar{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width:100%;
+    border-radius: 10px;
+    background-color:gray;
+}
+.range{
+    height:20px;
+    border-radius: 10px;
+    background-color: blue;
+}
+
+.search{
+    width:60%;
+    font-family: Knewave;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 10px 16px #000000;
+}
+.search-btn{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color:black;
+    background-color: white;
+    box-shadow: 0 10px 16px #000000;
+    font-family: Knewave;
+}
+.log-input{
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-family: Knewave;
+    box-shadow: 0 10px 16px #000000;
+}
+.log-btn{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color:white;
+    background-color: black;
+    font-family: Knewave;
+    box-shadow: 0 10px 16px #000000;
+}
+
+.dash-img{
+    border-radius: 10px;
+}
+
+.log-btn:active{
+    background-color: black;
+    color: white;
+}
+
+h2{
+    font-family: Knewave;
+    color: orange;
+}
+h4{
+    font-family: Knewave;
+}
+
+h3{
+    color: orange;
+}
+
+h5{
+    font-family: Knewave;
+}
+
+.link-category{
+    display: inline-block;
+}
+.link-http{
+    list-style: none;
+    margin: 5px 10px;
+}
+.link-http:hover>a{
+    background-color: black;
+    color: white;
+}
+a{
+    text-decoration: none;
+    font-family: Knewave;
+    color:black;
+    padding: 10px;
+}
+.paragraph{
+    font-size: 10px;
+    font-family: Knewave;
+    font-weight: lighter;
+}
+.paragraph-1{
+    font-size: 10px;
+    font-family: Knewave;
+    font-weight: lighter;
+    color:white;
+}
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: baseline;
+    width: 100%;
+    bottom: 0%;
+    position: relative;
+    color: white;
+}
+
+.terms-conditions{
+    font-size: 15px;
+    font-family: Knewave;
+    font-weight: lighter;
+    color:lightblue;
+    text-decoration: underline;   
+}
+
+@keyframes textAnim{
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
